@@ -1,0 +1,85 @@
+html, body{
+    height: 100%;
+}
+body{
+    font-family: 'Montserrat', 'sans-serif';
+}
+.parallax{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* ========================================= */
+/*                 Home Section              */
+/* ========================================= */
+section, #home, #home-cover{
+    height: 100%;
+}
+
+#home-cover{
+    background-image: url("../img/home-cover.jpg");
+}
+
+#home-content{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-inner-content{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#heading{
+    color: #fff;
+}
+
+#heading h2{
+    font-size: 5em;
+    margin: 0 20px;
+}
+
+/* ======================================== */
+/*                 BUTTONS                  */
+/* ======================================== */
+.btn-general{
+    color: #fff;
+    border-width: 2px;
+    border-color: #fff;
+}
+
+.btn-general:hover,
+.btn-general:focus{
+    background-color: #3066be;
+    color: #fff;
+    border-color: #3066be;
+}
+
+.btn-sradius{
+    border-radius: 2em;
+}
+
+#home-btn{
+    margin: 20px 10px;
+}
+
+/* ======================================== */
+/*                ANIMATIONS                */
+/* ======================================== */
+
+#home-cover{
+    animation-delay: .1s;
+    animation-duration: .5s;
+}
+
+#heading{
+    animation-delay: .3s;
+    animation-duration: .5s;
+}
+
+#home-btn{
+    animation-delay: .2s;
+    animation-duration: .5s;
+}
