@@ -83,3 +83,69 @@ section, #home, #home-cover{
     animation-delay: .2s;
     animation-duration: .5s;
 }
+
+/* ========================================= */
+/*              Services Section             */
+/* ========================================= */
+.content-box{
+    padding: 50px 0;
+}
+.content-title{
+    margin-bottom: 50px;
+}
+.content-title h3{
+    font-size: 40px;
+    text-align: center;
+}
+.content-title-underline{
+    height: 3px;
+    width: 150px;
+    background-color: #3066be;
+    margin: 0 auto;
+}
+
+.services-item{
+    margin: 0 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.services-item-icon{
+    color: #3066be;
+    padding: 20px;
+}
+.services-item-icon i{
+    padding: 10px;
+    border-radius: 1rem;
+}
+.services-item:hover .services-item-icon i{
+    color: #fff;
+    background-color: #3066be;
+}
+
+/* ========================================= */
+/*                About Section              */
+/* ========================================= */
+/* #about-bg-diagonal{
+    float: right;
+    width: 60%;
+    height: 500px;
+    border-top: 500px solid transparent;
+    border-left: 150px solid #fff;
+    background-image: url('../img/about.jpg');
+} */
+#about-content-box{
+    float: left;
+    height: 500px;
+}
+#about-content-box-outer{
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+#about-content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+#about-content-desc{
+    margin-bottom: 50px;
+}
